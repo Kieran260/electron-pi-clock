@@ -16,34 +16,38 @@ body,html {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 1024px;
-    height: 600px;
+    width: 800px;
+    height: 480px;
     background-image: url("../assets/background-images/neutral-theme.png");
 }
 
 .container-1 {
     display:flex;
     flex-direction: column;
-    width: 704px;
-    height: 280px;
-    margin-right: 10px;
+    width: 554px;
+    height: 224px;
+    margin-right: 5px;
 }
 
 
 .container-2 {
-    width: 280px;
-    height: 280px;
+    width: 214px;
+    height: 224px;
 }
 
 .container-3 {
-    width: 280px;
-    height: 280px;
-    margin-right: 10px;
+    display:flex;
+    width: 214px;
+    height: 224px;
+    margin-right: 5px;
+    justify-content: center;
+    align-items: center;
 }
 
 .container-4 {
-    width: 704px;
-    height: 280px;
+    display: flex;
+    width: 554px;
+    height: 224px;
    
 }
 
@@ -56,9 +60,8 @@ body,html {
 }
 
 .bottom-containers {
-    display: flex;
-    margin-top: 5px;
-    
+    display: flex;   
+    margin-top: 5px; 
 }
 
 .container {
