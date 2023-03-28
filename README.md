@@ -1,5 +1,5 @@
 # electron-pi-clock
-Smart clock developed using ElectronJS framework designed for Raspberry Pi.
+This is a description of a smart clock developed using the ElectronJS framework, which is designed to run on a Raspberry Pi. The clock utilizes modular widgets that can be customized by the user which can be loaded into the clock using an iOS remote application.
 
 
 # Running the Project
