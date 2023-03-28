@@ -90,12 +90,12 @@ body,html {
 
 .top-containers {
     display: flex;
-    margin-bottom: 5px;
+    margin-bottom: 2.5px;
 }
 
 .bottom-containers {
     display: flex;   
-    margin-top: 5px; 
+    margin-top: 2.5px; 
 }
 
 .container {
