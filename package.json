@@ -5,20 +5,26 @@
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "electron ."
+    "start": "electron .",
+    "build": "electron-builder",
+    "dist": "electron-builder --linux deb"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Kieran260/electron-smart-clock.git"
+    "url": "git+https://github.com/Kieran260/electron-pi-clock.git"
   },
-  "author": "Kieran Hardwick",
+  "author": {
+    "name": "Kieran Hardwick",
+    "email": "kieranhardwick260@gmail.com"
+  },
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Kieran260/electron-smart-clock/issues"
+    "url": "https://github.com/Kieran260/electron-pi-clock/issues"
   },
-  "homepage": "https://github.com/Kieran260/electron-smart-clock#readme",
+  "homepage": "https://github.com/Kieran260/electron-pi-clock#readme",
   "devDependencies": {
-    "electron": "^23.2.0"
+    "electron": "^23.2.0",
+    "electron-builder": "^23.6.0"
   },
   "dependencies": {
     "@google/maps": "^1.1.3",
