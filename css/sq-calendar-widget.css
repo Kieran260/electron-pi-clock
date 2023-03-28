@@ -1,0 +1,51 @@
+body,html {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    font-family: "articulat-cf", sans-serif;
+
+}
+
+
+
+
+.calendar-widget {
+    display:flex;
+    width: 280px;
+    height: 280px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#calendar-table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+.calendar td {
+	padding: 10px 10px;
+	text-align: center;
+}
+
+.c-td-h {
+    font-weight: 900;
+}
+
+.current-day {
+	color: #e66b6b;
+    font-weight: 900;
+    transform:scale(1.25);
+}
+
+.prev-month,
+.next-month {
+	color: #cacaca;
+}
+
+
+

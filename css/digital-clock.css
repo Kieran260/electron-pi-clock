@@ -1,0 +1,38 @@
+body,html {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: "articulat-cf", sans-serif;
+}
+
+.widget {
+    display:flex;
+    flex-direction: column;
+    width: 704px;
+    height: 280px;
+    margin-right: 10px;
+  }
+
+
+  /* Clock */
+
+.clock {
+    font-weight: bold;
+    font-weight: 900;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: start;
+    align-items: start;
+  }
+  
+.time {
+    line-height: 160px;
+    font-size: 160px;
+    color: #000000;
+}
+  
+.greeting {
+    margin: 20px;
+    font-size: 32px;
+}
+  

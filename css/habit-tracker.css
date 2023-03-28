@@ -1,0 +1,44 @@
+body,html {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: "articulat-cf", sans-serif;
+}
+
+.habit-widget {
+    display:flex;
+    flex-direction: column;
+    width: 684px;
+    height: 280px;
+    padding: 10px;
+  }
+
+
+
+/* Table */
+
+#habit-table {
+  border-collapse: collapse;
+}
+
+#habit-table, .h-th, .h-td {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.h-th, .h-td {
+  width: calc(75%/7);
+}
+
+.row-header {
+  padding-left: 10px;
+  width: 25%;
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  display: block;
+  margin: auto;
+  
+}
