@@ -1,0 +1,15 @@
+appId: com.pi-smart-clock
+productName: Pi Smart Clock
+directories:
+  output: dist
+  buildResources: build
+files:
+  - "**/*"
+  - "!node_modules/*/{CHANGELOG.md,README.md,README,readme.md,readme}"
+  - "!owner.name"
+extraResources:
+  - from: ".env"
+    to: ".env"
+linux:
+  target:
+    - deb
