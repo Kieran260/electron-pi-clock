@@ -4,7 +4,7 @@ Smart clock developed using ElectronJS framework designed for Raspberry Pi.
 
 # Running the Project
 
-Install packages:
+Node packages:
 
 npm install electron
 npm install dotenv
